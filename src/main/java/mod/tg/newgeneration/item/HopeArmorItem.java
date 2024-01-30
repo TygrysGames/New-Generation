@@ -29,7 +29,7 @@ public abstract class HopeArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{4, 8, 10, 4}[type.getSlot().getIndex()];
+				return new int[]{10, 18, 20, 10}[type.getSlot().getIndex()];
 			}
 
 			@Override

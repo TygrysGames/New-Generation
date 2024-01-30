@@ -1,6 +1,6 @@
 {
-  "block.new_generation.hope_ore": "Ruda Nadzieji",
   "item.new_generation.hope_armor_leggings": "Nogawice Nadzieji",
+  "block.new_generation.hope_ore": "Ruda Nadzieji",
   "item.new_generation.hope_hoe": "Motyka Nadzieji",
   "item.new_generation.hope_armor_boots": "Buty Nadzieji",
   "advancements.hope_is_here.descr": "Zdobądź Rudę Nadzieji",
@@ -14,8 +14,12 @@
   "advancements.now_i_have_hope.title": "Teraz mam Nadzieję!",
   "advancements.hope_is_here.title": "Szansa na Nadzieję!",
   "item.new_generation.hope_axe": "Siekiera Nadzieji",
+  "death.attack.testlol.player": "%1$s zginął przez Nadzieję uciekając przed %2$s",
   "item.new_generation.dust_upgrade": "Nadziejowe Ulepszenie",
+  "death.attack.testlol": "%1$s próbował walki z Nadzieją",
   "item.new_generation.hope_dust": "Proch Nadzieji",
   "item.new_generation.hope_pickaxe": "Kilof Nadzieji",
-  "advancements.now_i_have_hope.descr": "Zdobądź pełną Zbroję Nadzieji"
+  "advancements.now_i_have_hope.descr": "Zdobądź pełną Zbroję Nadzieji",
+  "effect.new_generation.hope_dream": "Poison of Hope",
+  "death.attack.testlol.item": "%1$s był Znadziejowany przez %2$s używającego %3$s"
 }

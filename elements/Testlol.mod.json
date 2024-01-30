@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.1,
+    "scaling": "always",
+    "effects": "freezing",
+    "normalDeathMessage": "%1$s was trying to fight Hope",
+    "itemDeathMessage": "%1$s was Hopped by %2$s using %3$s",
+    "playerDeathMessage": "%1$s died by Hope trying to escape from %2$s"
+  }
+}

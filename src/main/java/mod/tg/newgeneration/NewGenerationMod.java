@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import mod.tg.newgeneration.init.NewGenerationModTabs;
+import mod.tg.newgeneration.init.NewGenerationModMobEffects;
 import mod.tg.newgeneration.init.NewGenerationModItems;
 import mod.tg.newgeneration.init.NewGenerationModBlocks;
 
@@ -56,6 +57,8 @@ public class NewGenerationMod {
 		NewGenerationModItems.REGISTRY.register(bus);
 
 		NewGenerationModTabs.REGISTRY.register(bus);
+
+		NewGenerationModMobEffects.REGISTRY.register(bus);
 
 	}
 
