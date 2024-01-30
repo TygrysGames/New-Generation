@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "new_generation:hope_dust"
+    },
+    "title": {
+      "translate": "advancements.hope_is_here.title"
+    },
+    "description": {
+      "translate": "advancements.hope_is_here.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hope_is_here": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "new_generation:hope_ore"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:story/root"
+}

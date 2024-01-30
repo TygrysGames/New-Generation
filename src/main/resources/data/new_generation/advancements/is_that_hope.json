@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "new_generation:hope_block"
+    },
+    "title": {
+      "translate": "advancements.is_that_hope.title"
+    },
+    "description": {
+      "translate": "advancements.is_that_hope.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "is_that_hope": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "new_generation:hope_dust"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "new_generation:hope_is_here"
+}

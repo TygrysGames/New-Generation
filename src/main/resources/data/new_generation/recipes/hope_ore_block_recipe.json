@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "new_generation:hope_dust"
+    }
+  },
+  "result": {
+    "item": "new_generation:hope_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "new_generation:block/hope_ore",
+    "particle": "new_generation:block/hope_ore"
+  },
+  "render_type": "solid"
+}

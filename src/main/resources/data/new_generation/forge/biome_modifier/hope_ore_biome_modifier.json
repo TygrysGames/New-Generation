@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "bamboo_jungle",
+    "desert",
+    "jungle",
+    "sparse_jungle",
+    "ice_spikes"
+  ],
+  "features": "new_generation:hope_ore",
+  "step": "underground_ores"
+}

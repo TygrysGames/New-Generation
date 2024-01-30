@@ -1,0 +1,505 @@
+{
+  "mod_elements": [
+    {
+      "name": "HopeDust",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_generation/models/item/hope_dust.json",
+          "src/main/java/mod/tg/newgeneration/item/HopeDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HopeOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_generation/blockstates/hope_ore.json",
+          "src/main/resources/assets/new_generation/models/block/hope_ore.json",
+          "src/main/resources/data/new_generation/worldgen/configured_feature/hope_ore.json",
+          "src/main/resources/assets/new_generation/models/item/hope_ore.json",
+          "src/main/java/mod/tg/newgeneration/block/HopeOreBlock.java",
+          "src/main/resources/data/new_generation/forge/biome_modifier/hope_ore_biome_modifier.json",
+          "src/main/resources/data/new_generation/worldgen/placed_feature/hope_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "HopeBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_generation/blockstates/hope_block.json",
+          "src/main/java/mod/tg/newgeneration/block/HopeBlockBlock.java",
+          "src/main/resources/assets/new_generation/models/block/hope_block.json",
+          "src/main/resources/assets/new_generation/models/item/hope_block.json"
+        ]
+      }
+    },
+    {
+      "name": "HopeOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_generation/recipes/hope_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HopeBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_generation/recipes/hope_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HopeOreSmelting",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_generation/recipes/hope_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "HopePickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_generation/models/item/hope_pickaxe.json",
+          "src/main/java/mod/tg/newgeneration/item/HopePickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HopeAxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_generation/models/item/hope_axe.json",
+          "src/main/java/mod/tg/newgeneration/item/HopeAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HopeSword",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/tg/newgeneration/item/HopeSwordItem.java",
+          "src/main/resources/assets/new_generation/models/item/hope_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "HopeShovel",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/tg/newgeneration/item/HopeShovelItem.java",
+          "src/main/resources/assets/new_generation/models/item/hope_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "HopeHoe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_generation/models/item/hope_hoe.json",
+          "src/main/java/mod/tg/newgeneration/item/HopeHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HopePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_generation/recipes/hope_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HopeAxeRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_generation/recipes/hope_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HopeSwordRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_generation/recipes/hope_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HopeShovelRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_generation/recipes/hope_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HopeHoeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_generation/recipes/hope_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HopeArmor",
+      "type": "armor",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_generation/models/item/hope_armor_boots.json",
+          "src/main/resources/assets/new_generation/models/item/hope_armor_leggings.json",
+          "src/main/resources/assets/new_generation/models/item/hope_armor_chestplate.json",
+          "src/main/java/mod/tg/newgeneration/item/HopeArmorItem.java",
+          "src/main/resources/assets/new_generation/models/item/hope_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "HopeArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_generation/recipes/hope_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HopeArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_generation/recipes/hope_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HopeArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_generation/recipes/hope_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HopeArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_generation/recipes/hope_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DustUpgrade",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dust_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_generation/models/item/dust_upgrade.json",
+          "src/main/java/mod/tg/newgeneration/item/DustUpgradeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DustUpgradeRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dust_upgrade_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_generation/recipes/dust_upgrade_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DustUpgradeRecipe2",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dust_upgrade_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_generation/recipes/dust_upgrade_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "HopeIsHere",
+      "type": "achievement",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_is_here",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_generation/advancements/hope_is_here.json"
+        ]
+      }
+    },
+    {
+      "name": "IsTHATHope",
+      "type": "achievement",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_that_hope",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_generation/advancements/is_that_hope.json"
+        ]
+      }
+    },
+    {
+      "name": "NowIHaveHope",
+      "type": "achievement",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "now_i_have_hope",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_generation/advancements/now_i_have_hope.json"
+        ]
+      }
+    },
+    {
+      "name": "NowIHaveHopeProc",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "now_i_have_hope_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/tg/newgeneration/procedures/NowIHaveHopeProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "pl_pl": {
+      "block.new_generation.hope_ore": "Ruda Nadzieji",
+      "item.new_generation.hope_armor_leggings": "Nogawice Nadzieji",
+      "item.new_generation.hope_hoe": "Motyka Nadzieji",
+      "item.new_generation.hope_armor_boots": "Buty Nadzieji",
+      "advancements.hope_is_here.descr": "Zdobądź Rudę Nadzieji",
+      "item.new_generation.hope_sword": "Miecz Nadzieji",
+      "item.new_generation.hope_armor_helmet": "Hełm Nadzieji",
+      "item.new_generation.hope_armor_chestplate": "Napierśnik Nadzieji",
+      "advancements.is_that_hope.descr": "Zdobądź Proch Nadzieji",
+      "block.new_generation.hope_block": "Blok Nadzieji",
+      "advancements.is_that_hope.title": "Czy TO Nadzieja?!",
+      "item.new_generation.hope_shovel": "Łopata Nadzieji",
+      "advancements.now_i_have_hope.title": "Teraz mam Nadzieję!",
+      "advancements.hope_is_here.title": "Szansa na Nadzieję!",
+      "item.new_generation.hope_axe": "Siekiera Nadzieji",
+      "item.new_generation.dust_upgrade": "Nadziejowe Ulepszenie",
+      "item.new_generation.hope_dust": "Proch Nadzieji",
+      "item.new_generation.hope_pickaxe": "Kilof Nadzieji",
+      "advancements.now_i_have_hope.descr": "Zdobądź pełną Zbroję Nadzieji"
+    },
+    "en_us": {
+      "item.new_generation.hope_armor_leggings": "Leggings of Hope",
+      "block.new_generation.hope_ore": "Ore of Hope",
+      "item.new_generation.hope_hoe": "Hoe of Hope",
+      "item.new_generation.hope_armor_boots": "Boots of Hope",
+      "advancements.hope_is_here.descr": "Get Ore of Hope",
+      "item.new_generation.hope_sword": "Sword of Hope",
+      "item.new_generation.hope_armor_helmet": "Helmet of Hope",
+      "item.new_generation.hope_armor_chestplate": "Chestplate of Hope",
+      "advancements.is_that_hope.descr": "Get Dust of Hope",
+      "block.new_generation.hope_block": "Block of Hope",
+      "advancements.is_that_hope.title": "Is THAT Hope?!",
+      "item.new_generation.hope_shovel": "Shovel of Hope",
+      "advancements.now_i_have_hope.title": "Now I Have Hope!",
+      "advancements.hope_is_here.title": "Hope Is Here!",
+      "item.new_generation.hope_axe": "Axe of Hope",
+      "item.new_generation.dust_upgrade": "Dust Hope Upgrade",
+      "item.new_generation.hope_dust": "Dust of Hope",
+      "item.new_generation.hope_pickaxe": "Pickaxe of Hope",
+      "advancements.now_i_have_hope.descr": "Get whole Armor of Hope"
+    },
+    "fr_fr": {
+      "block.new_generation.hope_ore": "Minerai d\u0027espoir",
+      "item.new_generation.hope_armor_leggings": "Des jambières d\u0027espoir",
+      "item.new_generation.hope_hoe": "Houe d\u0027espoir",
+      "item.new_generation.hope_armor_boots": "Bottes d\u0027espoir",
+      "advancements.hope_is_here.descr": "Obtenez du minerai d\u0027espoir",
+      "item.new_generation.hope_sword": "Épée d\u0027espoir",
+      "item.new_generation.hope_armor_helmet": "Casque d\u0027espoir",
+      "item.new_generation.hope_armor_chestplate": "Plastron de l\u0027espoir",
+      "advancements.is_that_hope.descr": "Obtenez de la poussière d\u0027espoir",
+      "block.new_generation.hope_block": "Bloc d\u0027espoir",
+      "advancements.is_that_hope.title": "Est-ce que c\u0027est de l\u0027espoir?!",
+      "item.new_generation.hope_shovel": "Pelle d\u0027espoir",
+      "advancements.now_i_have_hope.title": "Est-ce de l\u0027espoir?!",
+      "advancements.hope_is_here.title": "L\u0027espoir est là!",
+      "item.new_generation.hope_axe": "Hache d\u0027espoir",
+      "item.new_generation.dust_upgrade": "Mise à niveau de Dust Hope",
+      "item.new_generation.hope_dust": "Poussière d\u0027espoir",
+      "item.new_generation.hope_pickaxe": "Pioche d\u0027espoir",
+      "advancements.now_i_have_hope.descr": "Obtenez toute l\u0027Armure de l\u0027Espoir"
+    },
+    "de_de": {
+      "block.new_generation.hope_ore": "Erz der Hoffnung",
+      "item.new_generation.hope_armor_leggings": "Leggings der Hoffnung",
+      "item.new_generation.hope_hoe": "Hacke der Hoffnung",
+      "item.new_generation.hope_armor_boots": "Stiefel der Hoffnung",
+      "advancements.hope_is_here.descr": "Holen Sie sich Erz der Hoffnung",
+      "item.new_generation.hope_sword": "Schwert der Hoffnung",
+      "item.new_generation.hope_armor_helmet": "Helm der Hoffnung",
+      "item.new_generation.hope_armor_chestplate": "Brustpanzer der Hoffnung",
+      "advancements.is_that_hope.descr": "Holen Sie sich Staub der Hoffnung",
+      "block.new_generation.hope_block": "Block der Hoffnung",
+      "advancements.is_that_hope.title": "Ist DAS Hoffnung?!",
+      "item.new_generation.hope_shovel": "Schaufel der Hoffnung",
+      "advancements.now_i_have_hope.title": "Jetzt habe ich Hoffnung!",
+      "advancements.hope_is_here.title": "Die Hoffnung ist da!",
+      "item.new_generation.hope_axe": "Axt der Hoffnung",
+      "item.new_generation.dust_upgrade": "Staub Hoffnung Aktualisierung",
+      "item.new_generation.hope_dust": "Staub der Hoffnung",
+      "item.new_generation.hope_pickaxe": "Spitzhacke der Hoffnung",
+      "advancements.now_i_have_hope.descr": "Holen Sie sich die gesamte Rüstung der Hoffnung"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "new_generation",
+    "modName": "New Generation",
+    "version": "1.0.0",
+    "author": "TygrysGamesYT, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "MCreator, TygrysGamesYT",
+    "modElementsPackage": "mod.tg.newgeneration",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

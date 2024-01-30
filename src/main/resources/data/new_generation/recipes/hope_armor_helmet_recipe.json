@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "new_generation:dust_upgrade"
+  },
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "addition": {
+    "item": "new_generation:hope_dust"
+  },
+  "result": {
+    "item": "new_generation:hope_armor_helmet"
+  }
+}

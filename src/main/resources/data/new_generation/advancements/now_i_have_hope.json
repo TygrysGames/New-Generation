@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "new_generation:hope_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.now_i_have_hope.title"
+    },
+    "description": {
+      "translate": "advancements.now_i_have_hope.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "now_i_have_hope": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "new_generation:hope_is_here"
+}
