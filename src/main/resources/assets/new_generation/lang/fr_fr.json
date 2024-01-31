@@ -1,4 +1,5 @@
 {
+  "death.attack.hope_death.item": "%1$s was Hopped by %2$s using %3$s",
   "block.new_generation.hope_ore": "Minerai d\u0027espoir",
   "item.new_generation.hope_armor_leggings": "Des jambières d\u0027espoir",
   "item.new_generation.hope_hoe": "Houe d\u0027espoir",
@@ -10,16 +11,15 @@
   "advancements.is_that_hope.descr": "Obtenez de la poussière d\u0027espoir",
   "block.new_generation.hope_block": "Bloc d\u0027espoir",
   "advancements.is_that_hope.title": "Est-ce que c\u0027est de l\u0027espoir?!",
+  "death.attack.hope_death": "%1$s was trying to fight Hope",
   "item.new_generation.hope_shovel": "Pelle d\u0027espoir",
   "advancements.now_i_have_hope.title": "Est-ce de l\u0027espoir?!",
   "advancements.hope_is_here.title": "L\u0027espoir est là!",
   "item.new_generation.hope_axe": "Hache d\u0027espoir",
-  "death.attack.testlol.player": "%1$s died by Hope trying to escape from %2$s",
   "item.new_generation.dust_upgrade": "Mise à niveau de Dust Hope",
-  "death.attack.testlol": "%1$s was trying to fight Hope",
   "item.new_generation.hope_dust": "Poussière d\u0027espoir",
   "item.new_generation.hope_pickaxe": "Pioche d\u0027espoir",
   "advancements.now_i_have_hope.descr": "Obtenez toute l\u0027Armure de l\u0027Espoir",
   "effect.new_generation.hope_dream": "Poison of Hope",
-  "death.attack.testlol.item": "%1$s was Hopped by %2$s using %3$s"
+  "death.attack.hope_death.player": "%1$s died by Hope trying to escape from %2$s"
 }

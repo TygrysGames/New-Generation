@@ -20,7 +20,7 @@
     "attackSpeed": 1.6,
     "enchantability": 17,
     "damageVsEntity": 9.0,
-    "usageCount": 324,
+    "usageCount": 3033,
     "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
@@ -32,6 +32,12 @@
     ],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "HopeSwordPoKliknieciuPPM"
+    },
+    "onEntityHitWith": {
+      "name": "HopeSwordPoKliknieciuPPM"
+    }
   }
 }

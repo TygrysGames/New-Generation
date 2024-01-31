@@ -404,19 +404,6 @@
       }
     },
     {
-      "name": "Testlol",
-      "type": "damagetype",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testlol",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/new_generation/damage_type/testlol.json"
-        ]
-      }
-    },
-    {
       "name": "HopeDream",
       "type": "potioneffect",
       "sortid": 31,
@@ -447,12 +434,68 @@
           }
         ]
       }
+    },
+    {
+      "name": "HopeDeath",
+      "type": "damagetype",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_death",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_generation/damage_type/hope_death.json"
+        ]
+      }
+    },
+    {
+      "name": "HopeDreamGdyEfektRozpoczetyzastosowany",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_dream_gdy_efekt_rozpoczetyzastosowany",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/tg/newgeneration/procedures/HopeDreamGdyEfektRozpoczetyzastosowanyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HopeDreamGdyEfektSieSkonczy",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_dream_gdy_efekt_sie_skonczy",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/tg/newgeneration/procedures/HopeDreamGdyEfektSieSkonczyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "pl_pl": {
+      "death.attack.hope_death.item": "%1$s został Znadziejowany przez %2$s z %3$s",
       "item.new_generation.hope_armor_leggings": "Nogawice Nadzieji",
       "block.new_generation.hope_ore": "Ruda Nadzieji",
       "item.new_generation.hope_hoe": "Motyka Nadzieji",
@@ -464,45 +507,45 @@
       "advancements.is_that_hope.descr": "Zdobądź Proch Nadzieji",
       "block.new_generation.hope_block": "Blok Nadzieji",
       "advancements.is_that_hope.title": "Czy TO Nadzieja?!",
+      "death.attack.hope_death": "%1$s próbował pokonać Nadzieję",
       "item.new_generation.hope_shovel": "Łopata Nadzieji",
       "advancements.now_i_have_hope.title": "Teraz mam Nadzieję!",
       "advancements.hope_is_here.title": "Szansa na Nadzieję!",
       "item.new_generation.hope_axe": "Siekiera Nadzieji",
-      "death.attack.testlol.player": "%1$s zginął przez Nadzieję uciekając przed %2$s",
       "item.new_generation.dust_upgrade": "Nadziejowe Ulepszenie",
-      "death.attack.testlol": "%1$s próbował walki z Nadzieją",
       "item.new_generation.hope_dust": "Proch Nadzieji",
       "item.new_generation.hope_pickaxe": "Kilof Nadzieji",
       "advancements.now_i_have_hope.descr": "Zdobądź pełną Zbroję Nadzieji",
       "effect.new_generation.hope_dream": "Poison of Hope",
-      "death.attack.testlol.item": "%1$s był Znadziejowany przez %2$s używającego %3$s"
+      "death.attack.hope_death.player": "%1$s umarł z Nadzieji przez %2$s"
     },
     "en_us": {
+      "death.attack.hope_death.item": "%1$s was Hopped by %2$s using %3$s",
       "item.new_generation.hope_armor_leggings": "Hope Leggings",
       "block.new_generation.hope_ore": "Ore of Hope",
       "item.new_generation.hope_hoe": "Hoe of Hope",
       "item.new_generation.hope_armor_boots": "Hope Boots",
       "advancements.hope_is_here.descr": "Get Ore of Hope",
-      "item.new_generation.hope_sword": "Sword of Hope",
+      "item.new_generation.hope_sword": "Hope Sword",
       "item.new_generation.hope_armor_helmet": "Hope Helmet",
       "item.new_generation.hope_armor_chestplate": "Hope Chestplate",
       "advancements.is_that_hope.descr": "Get Dust of Hope",
       "block.new_generation.hope_block": "Block of Hope",
       "advancements.is_that_hope.title": "Is THAT Hope?!",
-      "item.new_generation.hope_shovel": "Shovel of Hope",
+      "death.attack.hope_death": "%1$s was trying to fight Hope",
+      "item.new_generation.hope_shovel": "Hope Shovel",
       "advancements.now_i_have_hope.title": "Now I Have Hope!",
       "advancements.hope_is_here.title": "Hope Is Here!",
-      "item.new_generation.hope_axe": "Axe of Hope",
-      "death.attack.testlol.player": "%1$s died by Hope trying to escape from %2$s",
+      "item.new_generation.hope_axe": "Hope Axe",
       "item.new_generation.dust_upgrade": "Dust Hope Upgrade",
-      "death.attack.testlol": "%1$s was trying to fight Hope",
       "item.new_generation.hope_dust": "Dust of Hope",
       "item.new_generation.hope_pickaxe": "Pickaxe of Hope",
       "advancements.now_i_have_hope.descr": "Get whole Armor of Hope",
       "effect.new_generation.hope_dream": "Poison of Hope",
-      "death.attack.testlol.item": "%1$s was Hopped by %2$s using %3$s"
+      "death.attack.hope_death.player": "%1$s died by Hope trying to escape from %2$s"
     },
     "fr_fr": {
+      "death.attack.hope_death.item": "%1$s was Hopped by %2$s using %3$s",
       "block.new_generation.hope_ore": "Minerai d\u0027espoir",
       "item.new_generation.hope_armor_leggings": "Des jambières d\u0027espoir",
       "item.new_generation.hope_hoe": "Houe d\u0027espoir",
@@ -514,20 +557,20 @@
       "advancements.is_that_hope.descr": "Obtenez de la poussière d\u0027espoir",
       "block.new_generation.hope_block": "Bloc d\u0027espoir",
       "advancements.is_that_hope.title": "Est-ce que c\u0027est de l\u0027espoir?!",
+      "death.attack.hope_death": "%1$s was trying to fight Hope",
       "item.new_generation.hope_shovel": "Pelle d\u0027espoir",
       "advancements.now_i_have_hope.title": "Est-ce de l\u0027espoir?!",
       "advancements.hope_is_here.title": "L\u0027espoir est là!",
       "item.new_generation.hope_axe": "Hache d\u0027espoir",
-      "death.attack.testlol.player": "%1$s died by Hope trying to escape from %2$s",
       "item.new_generation.dust_upgrade": "Mise à niveau de Dust Hope",
-      "death.attack.testlol": "%1$s was trying to fight Hope",
       "item.new_generation.hope_dust": "Poussière d\u0027espoir",
       "item.new_generation.hope_pickaxe": "Pioche d\u0027espoir",
       "advancements.now_i_have_hope.descr": "Obtenez toute l\u0027Armure de l\u0027Espoir",
       "effect.new_generation.hope_dream": "Poison of Hope",
-      "death.attack.testlol.item": "%1$s was Hopped by %2$s using %3$s"
+      "death.attack.hope_death.player": "%1$s died by Hope trying to escape from %2$s"
     },
     "de_de": {
+      "death.attack.hope_death.item": "%1$s was Hopped by %2$s using %3$s",
       "block.new_generation.hope_ore": "Erz der Hoffnung",
       "item.new_generation.hope_armor_leggings": "Leggings der Hoffnung",
       "item.new_generation.hope_hoe": "Hacke der Hoffnung",
@@ -539,18 +582,17 @@
       "advancements.is_that_hope.descr": "Holen Sie sich Staub der Hoffnung",
       "block.new_generation.hope_block": "Block der Hoffnung",
       "advancements.is_that_hope.title": "Ist DAS Hoffnung?!",
+      "death.attack.hope_death": "%1$s was trying to fight Hope",
       "item.new_generation.hope_shovel": "Schaufel der Hoffnung",
       "advancements.now_i_have_hope.title": "Jetzt habe ich Hoffnung!",
       "advancements.hope_is_here.title": "Die Hoffnung ist da!",
       "item.new_generation.hope_axe": "Axt der Hoffnung",
-      "death.attack.testlol.player": "%1$s died by Hope trying to escape from %2$s",
       "item.new_generation.dust_upgrade": "Staub Hoffnung Aktualisierung",
-      "death.attack.testlol": "%1$s was trying to fight Hope",
       "item.new_generation.hope_dust": "Staub der Hoffnung",
       "item.new_generation.hope_pickaxe": "Spitzhacke der Hoffnung",
       "advancements.now_i_have_hope.descr": "Holen Sie sich die gesamte Rüstung der Hoffnung",
       "effect.new_generation.hope_dream": "Poison of Hope",
-      "death.attack.testlol.item": "%1$s was Hopped by %2$s using %3$s"
+      "death.attack.hope_death.player": "%1$s died by Hope trying to escape from %2$s"
     }
   },
   "foldersRoot": {
@@ -560,7 +602,8 @@
   "workspaceSettings": {
     "modid": "new_generation",
     "modName": "New Generation",
-    "version": "1a",
+    "version": "0.0.2",
+    "description": "New Generation is mod for minecraft that is exteme intresting...",
     "author": "TygrysGamesYT, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

@@ -4,11 +4,12 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="new_generation"
-version="1"
+version="0.0.2"
 displayName="New Generation"
 displayURL="https://mcreator.net"
 credits="MCreator, TygrysGamesYT"
 authors="TygrysGamesYT, MCreator"
+description="New Generation is mod for minecraft that is exteme intresting..."
 
 [[dependencies.new_generation]]
     modId="minecraft"

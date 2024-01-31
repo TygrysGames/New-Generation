@@ -11,6 +11,6 @@ public class HopeSwordPoKliknieciuPPMProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(NewGenerationModMobEffects.HOPE_DREAM.get(), 10, 1));
+			_entity.addEffect(new MobEffectInstance(NewGenerationModMobEffects.HOPE_DREAM.get(), 200, 1));
 	}
 }

@@ -1,4 +1,5 @@
 {
+  "death.attack.hope_death.item": "%1$s was Hopped by %2$s using %3$s",
   "block.new_generation.hope_ore": "Erz der Hoffnung",
   "item.new_generation.hope_armor_leggings": "Leggings der Hoffnung",
   "item.new_generation.hope_hoe": "Hacke der Hoffnung",
@@ -10,16 +11,15 @@
   "advancements.is_that_hope.descr": "Holen Sie sich Staub der Hoffnung",
   "block.new_generation.hope_block": "Block der Hoffnung",
   "advancements.is_that_hope.title": "Ist DAS Hoffnung?!",
+  "death.attack.hope_death": "%1$s was trying to fight Hope",
   "item.new_generation.hope_shovel": "Schaufel der Hoffnung",
   "advancements.now_i_have_hope.title": "Jetzt habe ich Hoffnung!",
   "advancements.hope_is_here.title": "Die Hoffnung ist da!",
   "item.new_generation.hope_axe": "Axt der Hoffnung",
-  "death.attack.testlol.player": "%1$s died by Hope trying to escape from %2$s",
   "item.new_generation.dust_upgrade": "Staub Hoffnung Aktualisierung",
-  "death.attack.testlol": "%1$s was trying to fight Hope",
   "item.new_generation.hope_dust": "Staub der Hoffnung",
   "item.new_generation.hope_pickaxe": "Spitzhacke der Hoffnung",
   "advancements.now_i_have_hope.descr": "Holen Sie sich die gesamte Rüstung der Hoffnung",
   "effect.new_generation.hope_dream": "Poison of Hope",
-  "death.attack.testlol.item": "%1$s was Hopped by %2$s using %3$s"
+  "death.attack.hope_death.player": "%1$s died by Hope trying to escape from %2$s"
 }

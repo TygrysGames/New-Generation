@@ -8,8 +8,13 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.network.chat.Component;
 
+import mod.tg.newgeneration.procedures.HopeSwordPoKliknieciuPPMProcedure;
 import mod.tg.newgeneration.init.NewGenerationModItems;
 
 import java.util.List;
@@ -18,7 +23,7 @@ public class HopeSwordItem extends SwordItem {
 	public HopeSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 324;
+				return 3033;
 			}
 
 			public float getSpeed() {
@@ -41,6 +46,20 @@ public class HopeSwordItem extends SwordItem {
 				return Ingredient.of(new ItemStack(NewGenerationModItems.HOPE_DUST.get()));
 			}
 		}, 3, -2.4f, new Item.Properties().fireResistant());
+	}
+
+	@Override
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
+		HopeSwordPoKliknieciuPPMProcedure.execute(entity);
+		return retval;
+	}
+
+	@Override
+	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
+		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
+		HopeSwordPoKliknieciuPPMProcedure.execute(entity);
+		return ar;
 	}
 
 	@Override
